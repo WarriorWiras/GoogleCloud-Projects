@@ -1,0 +1,115 @@
+/* General styling */
+.bg-custom-purple {
+    background-color: #501287 !important;
+}
+
+.text-custom-purple {
+    color: #FFFFFF !important;
+}
+
+.btn-custom-purple {
+    background-color: #501287;
+    border-color: #501287;
+    color: #FFFFFF;
+}
+
+.btn-custom-purple:hover {
+    background-color: #3e0e69;
+    border-color: #3e0e69;
+    color: #FFFFFF;
+}
+
+/* Points page specific styling */
+.points-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.points-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.points-header {
+    background-color: #501287;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.points-header h2 {
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+.points-body {
+    padding: 2rem;
+    text-align: center;
+}
+
+.points-value {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #501287;
+    margin-bottom: 0.5rem;
+}
+
+.points-updated {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.points-footer {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.points-footer p {
+    margin: 0.5rem 0;
+    color: #495057;
+}
+
+.points-info {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.points-info h3 {
+    color: #501287;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.points-info ul {
+    margin-bottom: 1.5rem;
+}
+
+.points-info li {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+    .points-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .points-card {
+        flex: 1;
+    }
+    
+    .points-info {
+        flex: 1;
+    }
+}

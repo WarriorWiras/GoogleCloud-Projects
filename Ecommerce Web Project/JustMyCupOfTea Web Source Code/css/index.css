@@ -1,0 +1,97 @@
+.banner {
+  height: 45dvh;
+  object-fit: cover;
+  border: 3px solid #E6A8D7;
+}
+
+.small-banner {
+  height: 40dvh;
+  object-fit: scale-down;
+  border: 3px #E6A8D7 solid;
+}
+
+.carousel-caption {
+  background-color: #E6A8D7;
+  padding: 0rem;
+}
+
+.slide {
+  width: 85%;
+  margin: auto;
+}
+
+.unbox-title h1 {
+  font-size: 2rem;
+}
+
+.items-title {
+  padding-top: 3em;
+}
+
+.card {
+  border: 5px solid #E6A8D7 !important;
+}
+
+.cards,
+.closer-look-carousel,
+.items-carousel {
+  width: 70%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+button {
+  background-color: #2c28a7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d1674;
+}
+
+h1 {
+  font-family: "Josefin Sans";
+  font-size: 3rem;
+  font-weight: 900;
+  color: #501287;
+}
+
+h2 {
+  color: #501287;
+}
+
+h3 {
+  font-family: "Josefin Sans";
+  font-size: 2rem;
+  font-weight: 900;
+  color: #501287;
+}
+
+h4 {
+  color: #501287 !important;
+}
+
+h6 {
+  font-family: Overpass;
+  font-weight: 700;
+  color: #E6A8D7;
+}
+
+header {
+  width: 78%;
+  margin: auto;
+}

@@ -1,0 +1,167 @@
+.bg-custom-purple {
+    background-color: #501287 !important;
+}
+.text-custom-purple {
+    color: #FFFFFF !important;
+}
+.btn-custom-purple {
+    background-color: #501287;
+    border-color: #501287;
+    color: #FFFFFF;
+}
+.btn-custom-purple:hover {
+    background-color: #3e0e69;
+    border-color: #3e0e69;
+    color: #FFFFFF;
+}
+.btn-outline-custom-purple {
+    border-color: #501287;
+    color: #501287;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-outline-custom-purple:hover {
+    background-color: #501287;
+    color: #FFFFFF;
+}
+
+.btn-custom-delete {
+    background-color: #501287;
+    border-color: #501287;
+    color: #FFFFFF;
+}
+.btn-custom-delete:hover {
+    background-color: #3e0e69;
+    border-color: #3e0e69;
+    color: #FFFFFF;
+}
+.btn-outline-custom-delete {
+    border-color: #501287;
+    color: #501287;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-outline-custom-delete:hover {
+    background-color: #501287;
+    color: #FFFFFF;
+}
+
+/* Cart page styles */
+.table img {
+    max-width: 60px;
+    border-radius: 5px;
+}
+
+.table-responsive {
+    margin-bottom: 30px;
+}
+
+/* Table alignment fixes */
+.table th:nth-child(2),
+.table td:nth-child(2) {
+    width: 120px;
+    text-align: center;
+}
+
+.table th:last-child,
+.table td:last-child {
+    width: 100px;
+    text-align: right;
+}
+
+/* Make the cart responsive */
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+    }
+    
+    .ingredient-list li {
+        margin-bottom: 3px;
+    }
+}
+
+/* Quantity control buttons*/
+.btn-quantity-control {
+    background-color: #501287;
+    color: white;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #501287;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-quantity-control:hover {
+    background-color: #3e0e69;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.btn-quantity-control:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.quantity-display {
+    font-weight: 600;
+    min-width: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Quantity controls */
+.quantity-controls {
+    min-width: 110px;
+}
+
+/* Subtotal styling */
+.subtotal-text {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+/* Point redemption styling */
+.points-redemption {
+    background-color: #f0f8ff;
+    border: 1px solid #d1e7ff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.points-redemption label {
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.points-redemption input[type="checkbox"] {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.points-discount {
+    color: #28a745;
+    font-weight: 500;
+}
+
+.checkout-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}

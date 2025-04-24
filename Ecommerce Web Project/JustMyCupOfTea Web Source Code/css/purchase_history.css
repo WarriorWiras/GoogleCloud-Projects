@@ -1,0 +1,111 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-custom-purple {
+    background-color: #501287 !important;
+}
+
+.text-custom-purple {
+    color: #FFFFFF !important;
+}
+
+.btn-custom-purple {
+    background-color: #501287;
+    border-color: #501287;
+    color: #FFFFFF;
+}
+
+.btn-custom-purple:hover {
+    background-color: #3e0e69;
+    border-color: #3e0e69;
+    color: #FFFFFF;
+}
+
+/* Order details section styling */
+.order-details {
+    margin-bottom: 2rem;
+}
+
+/* Table styling */
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* Quantity column alignment */
+.table th:nth-child(2),
+.table td:nth-child(2) {
+    width: 100px;
+    text-align: center;
+}
+
+/* Price column alignment */
+.table th:last-child,
+.table td:last-child {
+    width: 120px;
+    text-align: right;
+}
+
+/* Order summary card */
+.order-summary-card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Subtotal styling */
+.subtotal-text {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+/* No orders container */
+.no-orders-container {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+}
+
+.no-orders-container h2 {
+    margin-bottom: 1rem;
+    color: #501287;
+}
+
+.no-orders-container p {
+    margin-bottom: 1.5rem;
+}
+
+/* Order date styling */
+.order-date {
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+
+/* Badge styling for order status */
+.badge {
+    padding: 0.5em 0.8em;
+    font-weight: 500;
+}
+
+/* Review button styling */
+.btn-review {
+    background-color: #996209; /* Darker orange with better contrast against white text */
+    border-color: #996209;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.btn-review:hover {
+    background-color: #7d5108; /* Darker hover state */
+    border-color: #7d5108;
+    color: #FFFFFF;
+}
+
+/* Reviewed badge styling */
+.bg-info {
+    background-color: #0c7086 !important; /* Darker blue with better contrast against white text */
+}

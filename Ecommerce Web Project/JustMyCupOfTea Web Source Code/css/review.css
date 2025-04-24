@@ -1,0 +1,135 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-custom-purple {
+    background-color: #501287 !important;
+}
+
+.text-custom-purple {
+    color: #FFFFFF !important;
+}
+
+.btn-custom-purple {
+    background-color: #501287;
+    border-color: #501287;
+    color: #FFFFFF;
+}
+
+.btn-custom-purple:hover {
+    background-color: #3e0e69;
+    border-color: #3e0e69;
+    color: #FFFFFF;
+}
+
+.btn-outline-custom-purple {
+    border-color: #501287;
+    color: #501287;
+}
+
+.btn-outline-custom-purple:hover {
+    background-color: #501287;
+    color: #FFFFFF;
+}
+
+/* Table styling */
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* Quantity column alignment */
+.table th:nth-child(2),
+.table td:nth-child(2) {
+    width: 100px;
+    text-align: center;
+}
+
+/* Price column alignment */
+.table th:last-child,
+.table td:last-child {
+    width: 120px;
+    text-align: right;
+}
+
+/* Rating system styling */
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+    padding: 5px;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+    color: #F5A623;
+}
+
+.review-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.review-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.order-summary {
+    margin-bottom: 30px;
+}
+
+/* Order details section styling */
+.order-details {
+    margin-bottom: 2rem;
+}
+
+/* Order summary card */
+.order-summary-card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Subtotal styling */
+.subtotal-text {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+/* Points earned section styling */
+.points-earned {
+    background-color: #f0f8ff;
+    border: 2px solid #501287;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.points-earned p {
+    margin: 5px 0;
+}
+
+.points-earned a {
+    color: #501287;
+    text-decoration: underline;
+}
+
+.points-earned a:hover {
+    color: #3e0e69;
+}

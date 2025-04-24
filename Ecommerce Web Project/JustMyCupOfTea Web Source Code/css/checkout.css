@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-custom-purple {
+    background-color: #501287 !important;
+}
+
+.text-custom-purple {
+    color: #FFFFFF !important;
+}
+
+.btn-custom-purple {
+    background-color: #501287;
+    border-color: #501287;
+    color: #FFFFFF;
+}
+.btn-custom-purple:hover {
+    background-color: #3e0e69;
+    border-color: #3e0e69;
+    color: #FFFFFF;
+}
+.btn-outline-custom-purple {
+    border-color: #501287;
+    color: #501287;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-outline-custom-purple:hover {
+    background-color: #501287;
+    color: #FFFFFF;
+}
+
+table td, table th {
+    vertical-align: middle;
+}
+
+/* Order details section styling */
+.order-details {
+    margin-bottom: 2rem;
+}
+
+/* Table styling for checkout */
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* Quantity column alignment */
+.table th:nth-child(2),
+.table td:nth-child(2) {
+    width: 100px;
+    text-align: center;
+}
+
+/* Price column alignment */
+.table th:last-child,
+.table td:last-child {
+    width: 120px;
+    text-align: right;
+}
+
+/* Checkout button styling */
+#checkout-button {
+    min-width: 180px;
+}
+
+/* Order summary card */
+.order-summary-card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Subtotal styling */
+.subtotal-text {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,226 @@
+/* Jumbotron styling - keeping this purple */
+.jumbotron {
+    background-color: #501287 !important; 
+    color: white !important;
+}
+
+/* Card styling - reverting to light theme */
+.card {
+    background-color: white;
+    color: #333;
+    border-color: #ddd;
+}
+
+.card-header {
+    background-color: #f8f9fa !important;
+    color: #333 !important;
+    border-color: #ddd;
+}
+
+/* Tables with purple styling */
+table {
+    background-color: #501287;
+    color: #E6A8D7;
+    border-color: #6b1ba9;
+}
+
+th, td {
+    border-color: #6b1ba9;
+    color: #E6A8D7;
+}
+
+/* Form element styling */
+.form-label, .form-check-label {
+    color: #333;
+}
+
+.form-control {
+    background-color: white;
+    color: #333;
+    border-color: #ddd;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #7b20c2;
+    border-color: #6b1ba9;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #6b1ba9;
+    border-color: #5a1790;
+}
+
+.btn-outline-secondary {
+    color: #6b1ba9;
+    border-color: #6b1ba9;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6b1ba9;
+    color: white;
+}
+
+/* Text colors */
+.text-primary {
+    color: #7b20c2 !important;
+}
+
+/* Add these styles to your existing customize_drink.css */
+
+.draggable-topping {
+    cursor: grab;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.draggable-topping:active {
+    cursor: grabbing;
+}
+
+.draggable-topping.dragging {
+    opacity: 0.8;
+    transform: scale(1.05);
+    z-index: 100;
+}
+
+#drink-preview-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#toppings-container {
+    pointer-events: none;
+}
+
+.placed-topping {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    pointer-events: none; /* Make sure they don't interfere with future drops */
+    user-select: none;
+    z-index: 10;
+    transition: all 0.3s;
+}
+
+.topping-inner {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 8px;
+    transition: all 0.3s;
+    text-align: center !important;
+}
+
+.topping-inner img {
+    display: block !important;
+    margin: 0 auto !important;
+    height: 40px;
+    width: auto;
+}
+
+.topping-name {
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.topping-price {
+    font-size: 11px;
+    color: #5c636a; /* Darkened from #6c757d to #5c636a for better contrast */
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.draggable-topping.selected .topping-inner {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+/* For the "grabbing" cursor when actively dragging */
+body.dragging {
+    cursor: grabbing !important;
+}
+
+.pointer-events-none {
+    pointer-events: none;
+}
+
+/* Styles moved from customize_drink.php */
+.drink-container {
+    position: relative;
+    min-height: 300px;
+    border: 2px dashed #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.drink-container.drag-over {
+    border-color: #28a745;
+    background-color: rgba(40, 167, 69, 0.1);
+}
+
+.toppings-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.topping-item {
+    text-align: center !important;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.toppings-on-drink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.topping-on-drink {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.topping-on-drink .remove-topping {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+.topping-on-drink:hover .remove-topping {
+    display: block;
+}
+
+

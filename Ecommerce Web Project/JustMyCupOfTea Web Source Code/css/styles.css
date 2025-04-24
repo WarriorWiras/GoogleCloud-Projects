@@ -1,0 +1,52 @@
+/* universal settings */
+*,
+*::before,
+*::after {
+  font-family: Roboto, sans-serif;
+}
+
+.logo {
+  width: 120px;
+}
+
+.nav-link,
+.fs-6 {
+  font-family: Overpass;
+}
+
+nav .navbar-nav li a:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+.navbar {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+nav .navbar-nav li a {
+  color: #501287 !important;
+  font-weight: bold;
+}
+
+nav .navbar-nav li a:hover {
+  color: #ffffff !important;
+}
+
+.sociallogo {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+footer {
+  background: #E6A8D7;
+  padding: 20px 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+nav {
+  background: #E6A8D7;
+}
+

@@ -1,0 +1,68 @@
+.modal-content {
+  background-color: #501287; /* Deep bubble tea purple */
+  color: #E6A8D7; /* Light pink text */
+  border-radius: 1.5rem;
+  border: 2px solid #E6A8D7;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.modal-title {
+  color: #E6A8D7;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+/* White fields with soft border */
+.modal-body .form-control {
+  background-color: #fff;
+  color: #333;
+  border-radius: 0.75rem;
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+}
+
+/* Fix the button! */
+.modal-body .btn-success {
+  background-color: #E6A8D7;
+  border: none;
+  font-weight: bold;
+  border-radius: 0.75rem;
+  color: #501287;
+}
+
+.modal-body .btn-success:hover {
+  background-color: #f1b2df;
+  color: #3c096c;
+}
+
+
+/* Link inside modal */
+.modal-body a {
+  color: #E6A8D7;
+  text-decoration: none;
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.modal-body a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+/* Error text */
+.text-danger {
+  font-size: 0.9rem;
+}
+
+/* Remember me checkbox */
+.form-check-input {
+  margin-top: 0.35em;
+}
+
+/* Optional: Remove default modal header/footer borders */
+.modal-header,
+.modal-footer {
+  border: none;
+}
